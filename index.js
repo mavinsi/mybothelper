@@ -7,10 +7,8 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 
 console.log(`# Welcome to MyBotHelper 1.2`)
 console.log(`# github.com/mavinsi/mybothelper \n`)
-
 console.log(`[MBH] Initializing...`)
 client.on('ready', () => {
-  
     console.log(`[MBH] ${botcfg.name} online`);
 });
 
@@ -18,30 +16,26 @@ client.commands = new discord.Collection();
 console.log(`[MBH] Checking and reading command folder...`);
 const commandFiles = fs.readdirSync('./cmds/').filter(file => file.endsWith('.js'))
 for(const file of commandFiles){
-  
   const command = require(`./cmds/${file}`)
    client.commands.set(command.name, command)
 }
 
 client.on('messageCreate', async message => {
-
     let messageArray = message.content.split(" ");
     let cmd = messageArray[0];
     let args = messageArray.slice(1);
 
-
-
     for(const file of commandFiles){
       const command = require(`./cmds/${file}`)
       if(cmd === command.name){
-
       console.log(`[BOT] Executing ${command.name}.js command`)
       client.commands.get(command.name).execute(message,args)
     }
     }
 
-
 });
 client.login(botcfg.token)
+
+
 console.log(`[MBH] Base structure loaded successfully`)
 console.log(`[MBH] Waking up ${botcfg.name}...\n ----------------`)
