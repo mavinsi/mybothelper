@@ -21,13 +21,15 @@ facilitates the creation of bots via discord.js, the repository already has a ma
     "token": "Enter your bot token here"
 }
 ```
-## 🏃 Executing
+## 🏃 Executing & First test
 
 After having followed the installation and configuration steps correctly, your script is ready to be launched. 
 
 
 to start the bot just type ``npm start`` and wait for the script to initialize load the commands and initialize completely.
 
-if everything went well, you will receive a final message with the name of your bot informing you that it is online
+if everything went well, you will receive a final message with the name of your bot informing you that it is online, now let's test for your luck the repository already comes with a simple hello world command included, simply add the bot to a server and type "hello"
  
-## 🧑‍🔧 how to build your command
+## 🧑‍🔧How to build your command
+
+⚠️ topic under construction wait
