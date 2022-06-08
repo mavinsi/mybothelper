@@ -13,8 +13,10 @@ client.on('ready', () => {
 });
 
 client.commands = new discord.Collection();
-console.log(`[MBH] Checking and reading command folder...`);
+console.log(`[MBH] Loading commands...`);
 const commandFiles = fs.readdirSync('./cmds/').filter(file => file.endsWith('.js'))
+console.log(commandFiles)
+console.log(`[MBH] Commands loaded successfully`);
 for(const file of commandFiles){
   const command = require(`./cmds/${file}`)
    client.commands.set(command.name, command)
@@ -36,6 +38,4 @@ client.on('messageCreate', async message => {
 });
 client.login(botcfg.token)
 
-
-console.log(`[MBH] Base structure loaded successfully`)
 console.log(`[MBH] Waking up ${botcfg.name}...\n ----------------`)
