@@ -30,3 +30,4 @@ to start the bot just type ``npm start`` and wait for the script to initialize l
 
 if everything went well, you will receive a final message with the name of your bot informing you that it is online
  
+## 🧑‍🔧 how to build your command
