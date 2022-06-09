@@ -62,4 +62,10 @@ ola dev!
 
 ```
 
-E pronto parabéns você acabou de desenvolver seu primeir o comando para o MyBotHelper
+E pronto parabéns você acabou de desenvolver seu primeiro comando para o MyBotHelper
+
+<hr>
+
+<h1 align="center">🎉 Por enquanto nossa aventura termina aqui, mas logo logo receberemos mais tutorias e documentação, muito obrigado por experimentar!🎉</h1>
+
+
