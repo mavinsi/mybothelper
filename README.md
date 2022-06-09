@@ -13,13 +13,18 @@ facilitates the creation of bots via discord.js, the repository already has a ma
 
 1. First clone the repository ``git clone https://github.com/mavinsi/mybothelper``
 2. install the necessary dependencies ``npm install``
-3. Open the configuration file ``/config/bot.json``
-4. Replace the spaces with the information (name and token) that was requested as below
+3. Create a file named ``.env``
+4. Copy the ``.env.example`` file into the ``.env``
+5. Replace the spaces with the information (name and token) that was requested as below
 ```
-{
-    "name": "Enter your bot name here",
-    "token": "Enter your bot token here"
-}
+BOT_NAME=<YOUR_BOT_NAME>
+BOT_TOKEN=<YOUR_BOT_TOKEN>
+```
+6. If you need an example see below
+
+```
+BOT_NAME="John Doe"
+BOT_TOKEN="JUST A TOKEN OF YOUR BOT"
 ```
 ## 🏃 Executing & First test
 
