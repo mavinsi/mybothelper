@@ -4,7 +4,7 @@ module.exports= {
     name: 'command call name',
     description: 'command description',
     
-    execute(put here var/func/etc what you want to import from index.js to be used){
+    execute(insert here the parameters to be imported from the main index){
        // Command execution area
    
    
