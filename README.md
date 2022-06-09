@@ -33,7 +33,7 @@ MyBotHelper tem a proposta de facilitar a criação de bots em discord.js, o rep
 
 ## ROADMAP
 
-- [Instalação & configuração inicial](link-primeira-parte)
+- [Instalação & configuração inicial](https://github.com/mavinsi/mybothelper4noobs/blob/main/roadmap/h_install.md)
 - [Conteúdo 2](link-segunda-parte)
 - [Conteúdo 3](link-terceira-parte)
   - [Sub-conteúdo](link-sub-conteudo)
