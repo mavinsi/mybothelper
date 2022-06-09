@@ -1,8 +1,33 @@
 {
+  "name": "mybothelper",
+  "version": "0.2.0",
+  "author": "Marcus Rodrigues <markynrodrisilva@gmail.com>",
+  "license": "MIT",
+  "description": "Makes it easy to create bots on discord through a simple command handler",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node .",
+    "dev": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavinsi/mybothelper.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "discord.js",
+    "discord.js-commando"
+  ],
   "dependencies": {
-    "discord.js": "^13.8.0"
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mavinsi/mybothelper/issues"
+  },
+  "homepage": "https://github.com/mavinsi/mybothelper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
