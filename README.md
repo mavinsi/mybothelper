@@ -11,7 +11,7 @@
 <p align="center">
   <h2 align="center">MyBotHelper4Noobs</h2>
 
-  <h1 align="center"><img src="./imgs/icon.png" alt="Imagem da linguagem" width="120"></h1>
+  <h1 align="center"><img src="../imgs/icon.png" alt="Imagem da linguagem" width="120"></h1>
   
   <p align="center">
     <br />
@@ -34,7 +34,16 @@ MyBotHelper tem a proposta de facilitar a criação de bots em discord.js, o rep
 ## ROADMAP
 
 - [Instalação & configuração inicial](link-primeira-parte)
-
+- [Conteúdo 2](link-segunda-parte)
+- [Conteúdo 3](link-terceira-parte)
+  - [Sub-conteúdo](link-sub-conteudo)
+  	- [Sub-conteúdo](link-sub-conteudo)
+  - [Sub-conteúdo](link-sub-conteudo)
+- [Conteúdo 4](link-quarta-parte)
+- [Conteúdo 5](link-quinta-parte)
+  - [Sub-conteúdo](link-sub-conteudo)
+  - [Sub-conteúdo](link-sub-conteudo)
+  
   
 <!-- CONTRIBUTING -->
 
