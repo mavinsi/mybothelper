@@ -1,6 +1,6 @@
 {
   "name": "mybothelper",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Marcus Rodrigues <markynrodrisilva@gmail.com>",
   "license": "MIT",
   "description": "Makes it easy to create bots on discord through a simple command handler",
