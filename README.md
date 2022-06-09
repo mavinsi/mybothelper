@@ -11,7 +11,7 @@
 <p align="center">
   <h2 align="center">MyBotHelper4Noobs</h2>
 
-  <h1 align="center"><img src="../imgs/icon.png" alt="Imagem da linguagem" width="120"></h1>
+  <h1 align="center"><img src="./imgs/icon.png" alt="Imagem da linguagem" width="120"></h1>
   
   <p align="center">
     <br />
