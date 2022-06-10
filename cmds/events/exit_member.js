@@ -5,7 +5,7 @@ module.exports = {
   name: 'exit_member',
   description:
     'this command is executed every time a member leave any server the bot is on',
-  execute(client) {
+  execute(client, member) {
    
 
   },

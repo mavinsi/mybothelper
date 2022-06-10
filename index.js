@@ -49,12 +49,13 @@ client.on('ready', () => {
   client.commands.get('initial').execute(client);
   console.log(`[MBH] ${process.env.BOT_NAME} online`);
 });
-client.on("guildMemberAdd", guildMember => {
-    client.commands.get('new_member').execute(client);
+client.on("guildMemberAdd", member => {
+
+    client.commands.get('new_member').execute(client, member);
 });
 
 client.on("guildMemberRemove", guildMember => {
-  client.commands.get('exit_member').execute(client);
+  client.commands.get('exit_member').execute(client, member);
 });
 client.on('messageCreate', async message => {
   let messageArray = message.content.split(' ');

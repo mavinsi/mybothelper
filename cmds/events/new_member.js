@@ -5,8 +5,8 @@ module.exports = {
   name: 'new_member',
   description:
     'this command is executed every time a member joins any server the bot is on',
-  execute(client) {
-
+  execute(client, member) {
+ console.log(member.user.username)
 
   },
 };
