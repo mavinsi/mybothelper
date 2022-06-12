@@ -54,7 +54,11 @@ client.on("guildMemberAdd", member => {
     client.commands.get('new_member').execute(client, member);
 });
 
-client.on("guildMemberRemove", guildMember => {
+client.on('messageCreate', async message => {
+  client.commands.get('msg_send').execute(client, message);
+});
+
+client.on("guildMemberRemove", member => {
   client.commands.get('exit_member').execute(client, member);
 });
 client.on('messageCreate', async message => {
